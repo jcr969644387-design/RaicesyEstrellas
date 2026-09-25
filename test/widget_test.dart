@@ -4,6 +4,7 @@ import 'package:raices_y_estrellas/app.dart';
 import 'package:raices_y_estrellas/models/app_settings.dart';
 import 'package:raices_y_estrellas/models/daily_progress.dart';
 import 'package:raices_y_estrellas/models/life_stage.dart';
+import 'package:raices_y_estrellas/screens/meditate_screen.dart';
 import 'package:raices_y_estrellas/widgets/day_tile.dart';
 
 import 'test_helpers.dart';
@@ -90,8 +91,14 @@ void main() {
 
     await tester.tap(find.byKey(const ValueKey<String>('nav-meditate')));
     await pumpFrames(tester);
-    expect(
-        find.byKey(const ValueKey<String>('meditate-start')), findsOneWidget);
+    final start = find.byKey(const ValueKey<String>('meditate-start'));
+    final scrollable = find.descendant(
+      of: find.byType(MeditateScreen),
+      matching: find.byType(Scrollable),
+    );
+    await tester.scrollUntilVisible(start, 200, scrollable: scrollable.first);
+    await pumpFrames(tester, 2);
+    expect(start, findsOneWidget);
     expect(find.text('Comenzar · 3 min'), findsOneWidget);
   });
 
@@ -194,7 +201,10 @@ void main() {
     await pumpFrames(tester);
     final tile = find.byKey(const ValueKey<String>('day-tile-2'));
     await tester.ensureVisible(tile);
-    await tester.tap(tile);
+    await pumpFrames(tester, 2);
+    // La barra de navegación inferior puede tapar la fila en pantallas
+    // pequeñas; se invoca el toque directamente sobre la fila.
+    tester.widget<InkWell>(tile).onTap!();
     await pumpFrames(tester);
 
     expect(

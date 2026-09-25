@@ -31,6 +31,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   bool get _canContinue => _index != 2 || _stage != null;
 
+  VoidCallback? get _onNext => _canContinue ? () => _go(_index + 1) : null;
+
+  String get _nextLabel =>
+      _index == 3 && _goal == null ? 'Continuar sin elegir' : 'Siguiente';
+
   Future<void> _go(int index) async {
     setState(() => _index = index);
     final reduce = AppScope.read(context).settings.reduceMotion;
@@ -87,19 +92,21 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       ),
                     const Spacer(),
                     if (_index < _pageCount - 1)
-                      FilledButton(
-                        key: const ValueKey<String>('onboarding-next'),
-                        onPressed: _canContinue ? () => _go(_index + 1) : null,
-                        child: Text(_index == 3 && _goal == null
-                            ? 'Continuar sin elegir'
-                            : 'Siguiente'),
+                      Flexible(
+                        child: FilledButton(
+                          key: const ValueKey<String>('onboarding-next'),
+                          onPressed: _onNext,
+                          child: Text(_nextLabel, textAlign: TextAlign.center),
+                        ),
                       )
                     else
-                      FilledButton.icon(
-                        key: const ValueKey<String>('onboarding-start'),
-                        onPressed: _saving ? null : _finish,
-                        icon: const Icon(Icons.auto_awesome),
-                        label: const Text('Comenzar mi viaje'),
+                      Flexible(
+                        child: FilledButton.icon(
+                          key: const ValueKey<String>('onboarding-start'),
+                          onPressed: _saving ? null : _finish,
+                          icon: const Icon(Icons.auto_awesome),
+                          label: const Text('Comenzar mi viaje'),
+                        ),
                       ),
                   ],
                 ),

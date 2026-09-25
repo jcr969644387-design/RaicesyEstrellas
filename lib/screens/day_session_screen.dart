@@ -300,7 +300,13 @@ class _DaySessionScreenState extends State<DaySessionScreen> {
               child: const Text('Atrás'),
             ),
           const Spacer(),
-          FilledButton(key: nextKey, onPressed: onNext, child: Text(nextLabel)),
+          Flexible(
+            child: FilledButton(
+              key: nextKey,
+              onPressed: onNext,
+              child: Text(nextLabel, textAlign: TextAlign.center),
+            ),
+          ),
         ],
       ),
     );
