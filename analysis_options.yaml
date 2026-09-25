@@ -1,0 +1,14 @@
+# Reglas de análisis estático de Raíces y Estrellas.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+  errors:
+    # Evita que futuras deprecaciones de Flutter rompan la CI de inmediato.
+    deprecated_member_use: ignore
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_final_fields

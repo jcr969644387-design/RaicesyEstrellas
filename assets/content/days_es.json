@@ -1,0 +1,1823 @@
+{
+  "version": 1,
+  "constellations": [
+    {
+      "id": "origen",
+      "name": "Constelación Origen",
+      "firstDay": 1,
+      "lastDay": 7,
+      "subtitle": "Identidad, fortalezas, emociones y valores",
+      "milestoneTitle": "Primera constelación: Origen",
+      "milestoneReflection": "Durante siete días miraste hacia adentro sin pedirte ser otra persona. Reconociste fortalezas, nombraste emociones y recordaste de dónde vienes. Todo lo que crece empieza aquí: en saber quién eres cuando nadie te está mirando. En tu árbol ya asoma un brote.",
+      "treeUnlock": "Brote visible"
+    },
+    {
+      "id": "fortaleza",
+      "name": "Constelación Fortaleza",
+      "firstDay": 8,
+      "lastDay": 14,
+      "subtitle": "Miedo, errores, confianza y resiliencia",
+      "milestoneTitle": "Segunda constelación: Fortaleza",
+      "milestoneReflection": "Miraste de frente al miedo, a los errores y a los pensamientos que a veces te hablan con dureza. Descubriste que la fortaleza no es no caer, sino aprender a levantarte con más calma cada vez. Tu árbol ya es un árbol joven: flexible, vivo y con raíces más profundas.",
+      "treeUnlock": "Árbol joven"
+    },
+    {
+      "id": "accion",
+      "name": "Constelación Acción",
+      "firstDay": 15,
+      "lastDay": 21,
+      "subtitle": "Hábitos, disciplina, constancia y metas",
+      "milestoneTitle": "Tercera constelación: Acción",
+      "milestoneReflection": "Una semana de pequeñas acciones. No hiciste todo perfecto, y no hacía falta. La constancia no se construye con días heroicos, sino con días sencillos que se repiten. Lo que ahora haces sin pensar es la forma en que tu futuro empieza a tomar cuerpo. Tu árbol crece y aparecen nuevas ramas.",
+      "treeUnlock": "Árbol en crecimiento"
+    },
+    {
+      "id": "legado",
+      "name": "Constelación Legado",
+      "firstDay": 22,
+      "lastDay": 30,
+      "subtitle": "Propósito, relaciones, gratitud y legado",
+      "milestoneTitle": "Cuarta constelación: Legado",
+      "milestoneReflection": "Miraste más allá de ti: hacia las personas que te sostienen, hacia lo que agradeces y hacia la huella que quieres dejar. El legado no es algo que se deja al final; es lo que construyes cada día en la forma en que tratas a otros y a ti.",
+      "treeUnlock": "Árbol completo"
+    }
+  ],
+  "roots": [
+    {
+      "id": "autoconocimiento",
+      "name": "Autoconocimiento",
+      "description": "Conocer tu forma de sentir, pensar y elegir, sin juzgarte.",
+      "reflection": "Conocerte no es llegar a una respuesta final. Es seguir haciéndote buenas preguntas con curiosidad y respeto."
+    },
+    {
+      "id": "mente",
+      "name": "Mente",
+      "description": "Observar tus pensamientos y emociones y elegir cómo responder.",
+      "reflection": "No puedes elegir cada pensamiento que llega, pero sí cuáles alimentas. Una mente tranquila no es una mente vacía: es una mente que sabe volver."
+    },
+    {
+      "id": "disciplina",
+      "name": "Disciplina",
+      "description": "Sostener pequeñas acciones con constancia y amabilidad.",
+      "reflection": "La disciplina amable no es exigirte más. Es cumplir tus pequeñas promesas, incluso en días grises, porque te importas."
+    },
+    {
+      "id": "sabiduria",
+      "name": "Sabiduría",
+      "description": "Aprender de la experiencia y distinguir lo que depende de ti.",
+      "reflection": "La sabiduría no es saberlo todo. Es aprender de lo vivido, cuidar tu atención y soltar lo que no está en tus manos."
+    },
+    {
+      "id": "proposito",
+      "name": "Propósito",
+      "description": "Dar dirección y sentido a lo que haces.",
+      "reflection": "El propósito no siempre es una gran misión. A veces es simplemente saber por qué vale la pena levantarte y dar el siguiente paso."
+    },
+    {
+      "id": "relaciones",
+      "name": "Relaciones",
+      "description": "Cuidar los vínculos, escuchar y agradecer.",
+      "reflection": "Nadie crece completamente solo. Las raíces de un bosque se tocan bajo la tierra; las personas también se sostienen en lo que no se ve."
+    },
+    {
+      "id": "legado",
+      "name": "Legado",
+      "description": "La huella que dejas en otros y en el mundo.",
+      "reflection": "Tu legado no empieza cuando termines algo grande. Empieza hoy, en la forma en que haces sentir a los demás."
+    }
+  ],
+  "absenceMessage": "Tu recorrido no desapareció. Puedes continuar hoy.",
+  "finalQuestion": "Ahora que conoces mejor a la persona que eres, ¿qué quieres construir?",
+  "finalMessage": "Este no es el final de tu viaje.",
+  "days": [
+    {
+      "day": 1,
+      "title": "El punto de partida",
+      "constellation": "origen",
+      "root": "autoconocimiento",
+      "theme": "Identidad",
+      "objective": "Reconocer desde dónde empiezas y escribirle a la persona que serás.",
+      "minutes": 8,
+      "intro": "Todo viaje empieza en un lugar concreto: aquí, hoy, con lo que sientes y lo que tienes. No necesitas estar listo. Solo necesitas empezar.",
+      "teaching": "Muchas veces nos definimos por lo que todavía no logramos. Hoy te proponemos otra mirada: eres una persona en movimiento. Lo que eres hoy no es un límite, es un punto de partida.",
+      "philosophy": {
+        "source": "Inspirado en Sócrates",
+        "idea": "Conocerse a uno mismo no es un examen que se aprueba una vez. Es una conversación que dura toda la vida, y hoy la empiezas contigo."
+      },
+      "question": "Si dentro de 30 días pudieras leer un mensaje tuyo, ¿qué te gustaría recordar?",
+      "interaction": {
+        "type": "futureLetter",
+        "prompt": "Escribe una carta para la persona que serás dentro de 30 días.",
+        "placeholder": "Querido yo del futuro: hoy empiezo este viaje porque...",
+        "hint": "Puedes editarla hasta completar el Día 1. Después quedará sellada y solo se abrirá en el Día 30."
+      },
+      "examples": {
+        "teen": "Puedes contarle cómo te sientes con tus estudios, tus amistades o lo que te gustaría cambiar.",
+        "young": "Puedes contarle qué decisiones tienes delante y qué esperas descubrir de ti.",
+        "adult": "Puedes contarle qué equilibrio buscas entre tu trabajo, tu familia y tu tiempo.",
+        "senior": "Puedes contarle qué quieres cultivar en esta etapa y qué te gustaría seguir aprendiendo."
+      },
+      "challenge": {
+        "title": "Un momento para ti",
+        "base": "Busca un lugar tranquilo y respira despacio durante un minuto antes de dormir.",
+        "stages": {
+          "teen": "Antes de dormir, deja el teléfono lejos un minuto y respira despacio.",
+          "young": "Antes de dormir, respira un minuto sin pantallas y piensa en algo que hiciste bien hoy.",
+          "adult": "Regálate un minuto sin interrupciones antes de dormir. Solo respira.",
+          "senior": "Antes de dormir, respira un minuto con calma y agradece algo sencillo del día."
+        }
+      },
+      "meditation": {
+        "type": "breathing",
+        "minutes": 1,
+        "label": "Primera respiración consciente"
+      },
+      "ambient": "night",
+      "reward": {
+        "xp": 100,
+        "label": "Estrella del Origen"
+      },
+      "closing": "Hoy encendiste la primera estrella. No porque hayas hecho algo perfecto, sino porque decidiste empezar."
+    },
+    {
+      "day": 2,
+      "title": "Conocerte sin juzgarte",
+      "constellation": "origen",
+      "root": "autoconocimiento",
+      "theme": "Autoconocimiento",
+      "objective": "Observar cómo te describes y cambiar el juicio por curiosidad.",
+      "minutes": 6,
+      "intro": "Hablamos con nosotros mismos todo el día. A veces esa voz es amable; otras veces es más dura que la de cualquier otra persona.",
+      "teaching": "Conocerte empieza por observar sin condenar. Cuando cambias la pregunta «¿qué me pasa?» por «¿qué estoy aprendiendo de mí?», el autoconocimiento deja de doler y empieza a iluminar.",
+      "philosophy": {
+        "source": "Inspirado en Sócrates",
+        "idea": "Hacer preguntas honestas es más valioso que tener respuestas rápidas. La curiosidad es una forma de respeto hacia ti."
+      },
+      "question": "¿Cuál de estas frases se parece más a cómo te hablas últimamente?",
+      "interaction": {
+        "type": "singleChoice",
+        "prompt": "Elige la frase que mejor describe tu voz interior esta semana.",
+        "options": [
+          {
+            "label": "Me exijo mucho y casi nunca estoy conforme.",
+            "feedback": "La exigencia puede ser energía. Hoy prueba a sumarle una pizca de reconocimiento."
+          },
+          {
+            "label": "Me comparo con otras personas con frecuencia.",
+            "feedback": "Compararte es humano. Recuerda que ves el escenario de otros y tus propios bastidores."
+          },
+          {
+            "label": "Me hablo con paciencia la mayoría de las veces.",
+            "feedback": "Esa paciencia es una fortaleza. Cuídala: es una raíz que sostiene mucho."
+          },
+          {
+            "label": "No lo sé, nunca lo había pensado.",
+            "feedback": "Darte cuenta ya es un paso. Hoy empieza la observación."
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Por ejemplo, cuando algo sale mal en clase o en redes, ¿qué te dices?",
+        "young": "Por ejemplo, cuando no avanzas tan rápido como esperabas, ¿qué te dices?",
+        "adult": "Por ejemplo, al final de un día cansado, ¿cómo evalúas lo que hiciste?",
+        "senior": "Por ejemplo, cuando algo te cuesta más que antes, ¿cómo te hablas?"
+      },
+      "challenge": {
+        "title": "Cambiar una frase",
+        "base": "Cuando notes una crítica interna hoy, reescríbela como lo haría un buen amigo.",
+        "stages": {
+          "teen": "Si hoy te criticas por algo, cambia la frase por una que le dirías a tu mejor amigo.",
+          "young": "Detecta una autocrítica hoy y reescríbela en tono de entrenador, no de juez.",
+          "adult": "Detecta una autocrítica en el trabajo o en casa y conviértela en una frase útil.",
+          "senior": "Si hoy te hablas con dureza, responde con la paciencia que ofrecerías a alguien querido."
+        }
+      },
+      "meditation": {
+        "type": "selfAcceptance",
+        "minutes": 3,
+        "label": "Mirarte con amabilidad"
+      },
+      "ambient": "forest",
+      "reward": {
+        "xp": 100,
+        "label": "Estrella de la Curiosidad"
+      },
+      "closing": "Gracias por ser honesto contigo. Observar sin juzgar es un acto de valentía silenciosa."
+    },
+    {
+      "day": 3,
+      "title": "Tus fortalezas silenciosas",
+      "constellation": "origen",
+      "root": "autoconocimiento",
+      "theme": "Fortalezas",
+      "objective": "Reconocer tres fortalezas que ya forman parte de ti.",
+      "minutes": 6,
+      "intro": "Algunas fortalezas se notan de inmediato. Otras son silenciosas: están ahí cada día, pero no las nombramos.",
+      "teaching": "Una fortaleza no es algo que haces perfecto, sino algo que te sale con naturalidad y que te da energía. Reconocerlas no es presumir: es saber con qué herramientas cuentas.",
+      "philosophy": {
+        "source": "Inspirado en Aristóteles",
+        "idea": "Cada persona tiene capacidades que florecen cuando se practican. La excelencia no es un don fijo, es algo que se cultiva."
+      },
+      "question": "¿Qué fortalezas reconoces en ti, aunque a veces no las valores?",
+      "interaction": {
+        "type": "multiChoice",
+        "prompt": "Elige hasta tres fortalezas que sientas tuyas.",
+        "max": 3,
+        "options": [
+          "Paciencia",
+          "Creatividad",
+          "Empatía",
+          "Curiosidad",
+          "Humor",
+          "Perseverancia",
+          "Honestidad",
+          "Capacidad de escuchar",
+          "Organización",
+          "Valentía",
+          "Gratitud",
+          "Esperanza"
+        ]
+      },
+      "examples": {
+        "teen": "Quizá eres quien escucha a sus amigos, quien encuentra soluciones creativas o quien hace reír al grupo.",
+        "young": "Quizá eres quien no se rinde con un proyecto o quien sabe organizar cuando todo es caos.",
+        "adult": "Quizá eres quien sostiene a otros en momentos difíciles o quien encuentra calma en medio del estrés.",
+        "senior": "Quizá eres quien ofrece consejo sereno o quien sigue aprendiendo con curiosidad."
+      },
+      "challenge": {
+        "title": "Usar una fortaleza",
+        "base": "Usa conscientemente una de tus fortalezas hoy en una situación concreta.",
+        "stages": {
+          "teen": "Usa una de tus fortalezas hoy en clase, en casa o con tus amigos, y fíjate cómo te sientes.",
+          "young": "Aplica una de tus fortalezas en una tarea que venías evitando.",
+          "adult": "Usa una de tus fortalezas en una conversación o tarea del trabajo.",
+          "senior": "Comparte una de tus fortalezas con alguien: un consejo, una receta, una historia."
+        }
+      },
+      "meditation": {
+        "type": "confidence",
+        "minutes": 3,
+        "label": "Reconocer lo que ya tienes"
+      },
+      "ambient": "forest",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de las Fortalezas"
+      },
+      "closing": "Tus fortalezas estaban antes de este viaje. Hoy simplemente les pusiste nombre."
+    },
+    {
+      "day": 4,
+      "title": "El clima interior",
+      "constellation": "origen",
+      "root": "mente",
+      "theme": "Emociones",
+      "objective": "Entender las emociones como información, no como enemigas.",
+      "minutes": 5,
+      "intro": "Las emociones son como el clima: cambian, a veces sin aviso, y ninguna dura para siempre.",
+      "teaching": "No existen emociones buenas o malas; existen emociones agradables y desagradables. Todas traen información. La tristeza puede señalar algo que importa; el enojo, un límite; la ansiedad, algo que te preocupa cuidar.",
+      "philosophy": {
+        "source": "Inspirado en Lao Tse",
+        "idea": "El río no pelea con las piedras; las rodea. Aceptar una emoción no es rendirse a ella, es dejar de pelear para poder elegir."
+      },
+      "question": "¿Cuánto espacio le das a tus emociones sin juzgarlas?",
+      "interaction": {
+        "type": "scale",
+        "prompt": "Del 0 al 10, ¿qué tan fácil te resulta sentir una emoción sin rechazarla?",
+        "minLabel": "Me cuesta mucho",
+        "maxLabel": "Me resulta natural",
+        "low": "Es muy común que cueste. Nombrar lo que sientes ya es un primer paso para darle espacio.",
+        "mid": "Estás en un punto de equilibrio. Hoy puedes practicar nombrar una emoción cuando aparezca.",
+        "high": "Tienes una buena relación con tus emociones. Esa apertura es un recurso valioso."
+      },
+      "examples": {
+        "teen": "Por ejemplo: sentir nervios antes de un examen no significa que te vaya a ir mal.",
+        "young": "Por ejemplo: sentir frustración cuando algo tarda no significa que vayas por mal camino.",
+        "adult": "Por ejemplo: sentir cansancio no es debilidad, es una señal para cuidarte.",
+        "senior": "Por ejemplo: sentir nostalgia puede ser una forma de honrar lo vivido."
+      },
+      "challenge": {
+        "title": "Nombrar lo que sientes",
+        "base": "Tres veces hoy, detente y nombra en silencio la emoción que sientes.",
+        "stages": {
+          "teen": "Tres veces hoy, ponle nombre a lo que sientes: «esto es nervios», «esto es alegría».",
+          "young": "Tres veces hoy, pausa diez segundos y nombra tu emoción antes de seguir.",
+          "adult": "Entre una tarea y otra, nombra tu emoción tres veces a lo largo del día.",
+          "senior": "Tres veces hoy, detente, respira y nombra con calma lo que sientes."
+        }
+      },
+      "meditation": {
+        "type": "relaxation",
+        "minutes": 3,
+        "label": "Observar el clima interior"
+      },
+      "ambient": "rain",
+      "reward": {
+        "xp": 100,
+        "label": "Estrella del Clima Interior"
+      },
+      "closing": "Las emociones pasan como nubes. Tú eres el cielo que las contiene."
+    },
+    {
+      "day": 5,
+      "title": "Lo que valoras",
+      "constellation": "origen",
+      "root": "sabiduria",
+      "theme": "Valores",
+      "objective": "Elegir los valores que quieres que guíen tus decisiones.",
+      "minutes": 6,
+      "intro": "Tus valores son como una brújula: no te dicen exactamente a dónde ir, pero te ayudan a no perderte.",
+      "teaching": "Cuando una decisión es difícil, suele ser porque dos cosas que valoras se encuentran. Conocer tus valores no elimina la duda, pero la vuelve más clara.",
+      "philosophy": {
+        "source": "Inspirado en Aristóteles",
+        "idea": "Una vida buena no depende solo de lo que logras, sino de cómo eres mientras lo logras."
+      },
+      "question": "Si tuvieras que elegir solo tres valores para guiar tus próximas semanas, ¿cuáles serían?",
+      "interaction": {
+        "type": "multiChoice",
+        "prompt": "Elige hasta tres valores que quieras tener presentes.",
+        "max": 3,
+        "options": [
+          "Honestidad",
+          "Libertad",
+          "Familia",
+          "Amistad",
+          "Aprendizaje",
+          "Salud",
+          "Justicia",
+          "Creatividad",
+          "Serenidad",
+          "Responsabilidad",
+          "Generosidad",
+          "Autenticidad"
+        ]
+      },
+      "examples": {
+        "teen": "Por ejemplo, elegir la honestidad puede significar decir lo que piensas sin herir.",
+        "young": "Por ejemplo, elegir el aprendizaje puede significar aceptar retos que te dan miedo.",
+        "adult": "Por ejemplo, elegir la familia puede significar proteger un tiempo que no se negocia.",
+        "senior": "Por ejemplo, elegir la serenidad puede significar decir que no a lo que te quita paz."
+      },
+      "challenge": {
+        "title": "Un valor en acción",
+        "base": "Haz hoy una acción pequeña que refleje uno de tus valores.",
+        "stages": {
+          "teen": "Haz hoy algo pequeño que muestre uno de tus valores, aunque nadie lo note.",
+          "young": "Toma una decisión pequeña hoy pensando en uno de tus valores.",
+          "adult": "Elige una tarea de hoy y hazla desde uno de tus valores.",
+          "senior": "Comparte con alguien por qué uno de tus valores es importante para ti."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 3,
+        "label": "Volver a tu brújula"
+      },
+      "ambient": "wind",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de la Brújula"
+      },
+      "closing": "Tus valores ya no son palabras sueltas: son una dirección que puedes volver a mirar."
+    },
+    {
+      "day": 6,
+      "title": "Tu historia hasta hoy",
+      "constellation": "origen",
+      "root": "autoconocimiento",
+      "theme": "Historia personal",
+      "objective": "Reconocer lo que has superado y lo que eso dice de ti.",
+      "minutes": 8,
+      "intro": "Llegaste hasta aquí atravesando días buenos, días difíciles y días que parecían imposibles. Esa historia también es tuya.",
+      "teaching": "Solemos recordar nuestras caídas con más detalle que nuestras recuperaciones. Mirar tu historia con justicia significa reconocer también todo lo que resististe, aprendiste y reconstruiste.",
+      "philosophy": {
+        "source": "Inspirado en Viktor Frankl",
+        "idea": "Incluso en situaciones difíciles, las personas encuentran formas de dar sentido a lo vivido. Tu historia no te define, pero sí te enseña."
+      },
+      "question": "¿Qué momento difícil superaste y qué te enseñó sobre ti?",
+      "interaction": {
+        "type": "freeText",
+        "prompt": "Escribe brevemente sobre algo que superaste. No necesitas contar detalles que no quieras.",
+        "placeholder": "Recuerdo cuando... y descubrí que yo...",
+        "minLength": 3
+      },
+      "examples": {
+        "teen": "Quizá un cambio de colegio, una amistad que terminó o una materia que te costó.",
+        "young": "Quizá un rechazo, una mudanza o una etapa en la que tuviste que empezar de nuevo.",
+        "adult": "Quizá una pérdida, un cambio de trabajo o una etapa de mucha responsabilidad.",
+        "senior": "Quizá una etapa larga de esfuerzo, una despedida o un nuevo comienzo inesperado."
+      },
+      "challenge": {
+        "title": "Reconocer tu camino",
+        "base": "Escribe en una nota tres cosas que has superado en tu vida y guárdala.",
+        "stages": {
+          "teen": "Escribe tres cosas que has superado, aunque parezcan pequeñas. Todas cuentan.",
+          "young": "Anota tres momentos que superaste y una habilidad que te dejó cada uno.",
+          "adult": "Anota tres etapas difíciles que atravesaste y cómo lo lograste.",
+          "senior": "Cuenta a alguien de confianza una historia de superación que te enorgullezca."
+        }
+      },
+      "meditation": {
+        "type": "selfAcceptance",
+        "minutes": 5,
+        "label": "Honrar tu historia"
+      },
+      "ambient": "fire",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella de la Historia"
+      },
+      "closing": "Tu historia no es solo lo que te pasó. También es todo lo que hiciste con ello."
+    },
+    {
+      "day": 7,
+      "title": "Hacer las paces contigo",
+      "constellation": "origen",
+      "root": "mente",
+      "theme": "Autoaceptación",
+      "objective": "Practicar la aceptación como punto de partida para crecer.",
+      "minutes": 7,
+      "intro": "Aceptarte no significa conformarte. Significa dejar de pelear contigo para poder avanzar juntos.",
+      "teaching": "Muchas personas creen que si se aceptan dejarán de mejorar. Ocurre lo contrario: es más fácil crecer desde la calma que desde el rechazo. La aceptación es tierra fértil.",
+      "philosophy": {
+        "source": "Inspirado en Lao Tse",
+        "idea": "El agua es suave y, sin embargo, con paciencia da forma a la piedra. La suavidad contigo también es una fuerza."
+      },
+      "question": "¿Qué parte de ti necesita hoy un poco más de paciencia?",
+      "interaction": {
+        "type": "breathing",
+        "prompt": "Haz cuatro respiraciones lentas. Con cada exhalación repite en silencio: «Estoy aprendiendo».",
+        "cycles": 4,
+        "mantra": "Estoy aprendiendo"
+      },
+      "examples": {
+        "teen": "Quizá tu cuerpo, tu forma de ser o algo que te da vergüenza. Todo eso también está creciendo.",
+        "young": "Quizá tu ritmo, tus dudas o tus errores recientes.",
+        "adult": "Quizá tu cansancio, tus límites o las cosas que no alcanzas a hacer.",
+        "senior": "Quizá los cambios de tu cuerpo o de tu rutina."
+      },
+      "challenge": {
+        "title": "Una frase de paz",
+        "base": "Escribe una frase amable sobre ti y déjala en un lugar donde la veas mañana.",
+        "stages": {
+          "teen": "Escribe una frase amable sobre ti y ponla como fondo o en tu cuaderno.",
+          "young": "Escribe una frase de aceptación y léela mañana al despertar.",
+          "adult": "Deja una nota amable para ti en tu espacio de trabajo o en casa.",
+          "senior": "Escribe una frase de gratitud hacia ti y léela en voz alta mañana."
+        }
+      },
+      "meditation": {
+        "type": "selfAcceptance",
+        "minutes": 5,
+        "label": "Tierra fértil"
+      },
+      "ambient": "water",
+      "reward": {
+        "xp": 150,
+        "label": "Estrella de la Paz Interior"
+      },
+      "closing": "Completaste la primera semana. Tu primera constelación brilla porque te miraste con honestidad."
+    },
+    {
+      "day": 8,
+      "title": "El miedo como mensajero",
+      "constellation": "fortaleza",
+      "root": "mente",
+      "theme": "Miedo",
+      "objective": "Escuchar lo que el miedo intenta cuidar sin dejar que decida por ti.",
+      "minutes": 6,
+      "intro": "El miedo no es tu enemigo. Es un mensajero algo exagerado que intenta protegerte.",
+      "teaching": "El miedo aparece cuando algo te importa. Escucharlo no significa obedecerlo. Puedes agradecerle el aviso y aun así dar un paso.",
+      "philosophy": {
+        "source": "Inspirado en Séneca",
+        "idea": "A menudo sufrimos más en la imaginación que en la realidad. Mirar el miedo de cerca lo vuelve más pequeño."
+      },
+      "question": "¿Qué suele decirte tu miedo con más frecuencia?",
+      "interaction": {
+        "type": "singleChoice",
+        "prompt": "Elige el mensaje que más reconoces.",
+        "options": [
+          {
+            "label": "«No vas a poder».",
+            "feedback": "Ese mensaje suele exagerar. Pregúntate: ¿qué parte pequeña sí podría hacer?"
+          },
+          {
+            "label": "«Van a pensar mal de ti».",
+            "feedback": "Casi siempre las personas piensan en nosotros menos de lo que creemos."
+          },
+          {
+            "label": "«Mejor no cambies nada».",
+            "feedback": "Lo conocido da seguridad. Un cambio pequeño no destruye esa seguridad; la amplía."
+          },
+          {
+            "label": "«¿Y si sale mal?».",
+            "feedback": "Prueba también la pregunta contraria: ¿y si sale bien, o al menos te enseña algo?"
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Por ejemplo, el miedo a participar en clase o a mostrar algo que hiciste.",
+        "young": "Por ejemplo, el miedo a postular a algo, a cambiar de rumbo o a decir lo que sientes.",
+        "adult": "Por ejemplo, el miedo a pedir ayuda, a delegar o a intentar algo nuevo.",
+        "senior": "Por ejemplo, el miedo a aprender una tecnología nueva o a empezar una actividad distinta."
+      },
+      "challenge": {
+        "title": "Un paso con miedo",
+        "base": "Haz hoy algo pequeño que tu miedo te sugiere evitar, sin riesgo para ti ni para otros.",
+        "stages": {
+          "teen": "Haz una pregunta en clase o comparte una idea, aunque sientas nervios.",
+          "young": "Envía ese mensaje o da ese paso pequeño que vienes postergando por miedo.",
+          "adult": "Pide ayuda con algo concreto o expresa una opinión que sueles callar.",
+          "senior": "Prueba algo nuevo y pequeño: una receta, una ruta o una conversación."
+        }
+      },
+      "meditation": {
+        "type": "confidence",
+        "minutes": 3,
+        "label": "Respirar junto al miedo"
+      },
+      "ambient": "wind",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella del Mensajero"
+      },
+      "closing": "Hoy escuchaste al miedo sin darle el volante. Eso es fortaleza."
+    },
+    {
+      "day": 9,
+      "title": "Lo que el error enseña",
+      "constellation": "fortaleza",
+      "root": "sabiduria",
+      "theme": "Fracaso",
+      "objective": "Transformar un error en aprendizaje concreto.",
+      "minutes": 7,
+      "intro": "Nadie aprende a caminar sin caerse. Sin embargo, de adultos olvidamos que equivocarse es parte de aprender.",
+      "teaching": "Un error no es una sentencia sobre quién eres; es información sobre lo que hiciste. Separar la acción de la identidad te permite aprender sin hundirte.",
+      "philosophy": {
+        "source": "Inspirado en Epicteto",
+        "idea": "No son los hechos los que más nos pesan, sino la historia que nos contamos sobre ellos. Puedes elegir una historia que te ayude a aprender."
+      },
+      "question": "¿Qué error reciente podría convertirse en una lección?",
+      "interaction": {
+        "type": "freeText",
+        "prompt": "Describe un error y escribe una lección que puedes llevarte.",
+        "placeholder": "Me equivoqué cuando... La próxima vez intentaré...",
+        "minLength": 3
+      },
+      "examples": {
+        "teen": "Por ejemplo: dejar una tarea para el final y aprender a dividirla en partes.",
+        "young": "Por ejemplo: aceptar demasiados compromisos y aprender a decir que no.",
+        "adult": "Por ejemplo: responder con enojo y aprender a pausar antes de hablar.",
+        "senior": "Por ejemplo: no pedir ayuda a tiempo y aprender que pedirla también es sabiduría."
+      },
+      "challenge": {
+        "title": "Aprender en voz alta",
+        "base": "Comparte con alguien de confianza algo que aprendiste de un error.",
+        "stages": {
+          "teen": "Cuéntale a alguien de confianza un error que te enseñó algo útil.",
+          "young": "Comparte con un amigo o colega un aprendizaje que vino de equivocarte.",
+          "adult": "Comenta con tu equipo o familia algo que aprendiste de un error, sin culparte.",
+          "senior": "Comparte con alguien más joven una lección que te dejó un error."
+        }
+      },
+      "meditation": {
+        "type": "selfAcceptance",
+        "minutes": 3,
+        "label": "Soltar el peso del error"
+      },
+      "ambient": "rain",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella del Aprendizaje"
+      },
+      "closing": "Hoy convertiste un tropiezo en semilla. Eso también es crecer."
+    },
+    {
+      "day": 10,
+      "title": "No todo lo que piensas es verdad",
+      "constellation": "fortaleza",
+      "root": "mente",
+      "theme": "Pensamientos",
+      "objective": "Distinguir entre un pensamiento y un hecho, y buscar una mirada más justa.",
+      "minutes": 7,
+      "intro": "La mente produce pensamientos todo el tiempo. Algunos son útiles; otros son solo ruido que suena muy convincente.",
+      "teaching": "Un pensamiento no es un hecho. Cuando notes uno muy duro, puedes preguntarte: ¿es completamente cierto?, ¿qué le diría a alguien a quien quiero?, ¿hay otra forma de verlo?",
+      "philosophy": {
+        "source": "Inspirado en Marco Aurelio",
+        "idea": "La calidad de tu vida se parece a la calidad de tus pensamientos habituales. Puedes cuidarlos como cuidas un jardín."
+      },
+      "question": "¿Qué pensamiento te visita con frecuencia y cómo sería una versión más justa?",
+      "interaction": {
+        "type": "fields",
+        "prompt": "Escribe un pensamiento difícil y luego una mirada más equilibrada.",
+        "fields": [
+          {
+            "label": "Pensamiento que aparece",
+            "placeholder": "Ej.: «Nunca hago nada bien»"
+          },
+          {
+            "label": "Una mirada más justa",
+            "placeholder": "Ej.: «A veces me equivoco, y también hago cosas bien»"
+          }
+        ],
+        "minFilled": 2
+      },
+      "examples": {
+        "teen": "Por ejemplo: «Todos son mejores que yo» puede convertirse en «Cada quien tiene su ritmo».",
+        "young": "Por ejemplo: «Ya es tarde para mí» puede convertirse en «Estoy a tiempo de dar un paso».",
+        "adult": "Por ejemplo: «Tengo que poder con todo» puede convertirse en «Puedo priorizar y pedir ayuda».",
+        "senior": "Por ejemplo: «Ya no puedo aprender» puede convertirse en «Aprendo a mi manera y a mi ritmo»."
+      },
+      "challenge": {
+        "title": "Detectar y reformular",
+        "base": "Cuando notes hoy un pensamiento duro, pregúntate si es completamente cierto.",
+        "stages": {
+          "teen": "Si hoy piensas algo duro de ti, pregúntate: ¿se lo diría a mi mejor amigo?",
+          "young": "Detecta hoy un pensamiento de «todo o nada» y reformúlalo.",
+          "adult": "Detecta un «tengo que» y conviértelo en «elijo» o «puedo».",
+          "senior": "Detecta un «ya no» y cámbialo por «todavía puedo»."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 5,
+        "label": "Ver pasar los pensamientos"
+      },
+      "ambient": "sea",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella de la Mente Clara"
+      },
+      "closing": "Un pensamiento es una visita, no una orden. Hoy aprendiste a abrir y cerrar la puerta."
+    },
+    {
+      "day": 11,
+      "title": "La confianza se construye",
+      "constellation": "fortaleza",
+      "root": "disciplina",
+      "theme": "Confianza",
+      "objective": "Entender que la confianza crece cumpliendo pequeñas promesas.",
+      "minutes": 5,
+      "intro": "La confianza no aparece de golpe. Se parece más a un músculo que a un regalo.",
+      "teaching": "Cada vez que cumples una promesa pequeña contigo, tu mente toma nota: «puedo contar conmigo». La confianza se construye con evidencia, no con presión.",
+      "philosophy": {
+        "source": "Inspirado en Aristóteles",
+        "idea": "Nos volvemos valientes haciendo actos valientes, y confiables cumpliendo lo que decimos. El carácter es práctica."
+      },
+      "question": "¿Cuánto confías hoy en tu capacidad de cumplir algo pequeño?",
+      "interaction": {
+        "type": "scale",
+        "prompt": "Del 0 al 10, ¿cuánto confías en que hoy puedes cumplir una promesa pequeña contigo?",
+        "minLabel": "Muy poco",
+        "maxLabel": "Totalmente",
+        "low": "Entonces empecemos con algo muy pequeño, tan pequeño que sea casi imposible fallar.",
+        "mid": "Tienes una base. Una promesa pequeña cumplida hoy puede subir ese número.",
+        "high": "Tu confianza está fuerte. Úsala para dar un paso que venías postergando."
+      },
+      "examples": {
+        "teen": "Por ejemplo: «Hoy repaso 10 minutos» o «Hoy ordeno mi mochila».",
+        "young": "Por ejemplo: «Hoy me acuesto a la hora que decidí».",
+        "adult": "Por ejemplo: «Hoy tomo una pausa de 5 minutos sin pantallas».",
+        "senior": "Por ejemplo: «Hoy salgo a caminar un rato corto»."
+      },
+      "challenge": {
+        "title": "Una promesa pequeña",
+        "base": "Hazte una promesa pequeña para hoy y cúmplela.",
+        "stages": {
+          "teen": "Promete algo pequeño para hoy (10 minutos de estudio, ordenar algo) y cúmplelo.",
+          "young": "Define una promesa de 5 minutos y cúmplela antes de que termine el día.",
+          "adult": "Elige una promesa pequeña para ti, no para otros, y cúmplela hoy.",
+          "senior": "Promete algo sencillo y amable para ti hoy y cúmplelo con calma."
+        }
+      },
+      "meditation": {
+        "type": "confidence",
+        "minutes": 3,
+        "label": "Contar contigo"
+      },
+      "ambient": "forest",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de la Confianza"
+      },
+      "closing": "Cada promesa cumplida es una piedra más en el puente hacia ti."
+    },
+    {
+      "day": 12,
+      "title": "Doblarse sin romperse",
+      "constellation": "fortaleza",
+      "root": "sabiduria",
+      "theme": "Resiliencia",
+      "objective": "Distinguir lo que depende de ti de lo que no, para cuidar tu energía.",
+      "minutes": 7,
+      "intro": "Los árboles que resisten el viento no son los más rígidos, sino los que saben doblarse.",
+      "teaching": "Hay situaciones que podemos cambiar y otras que no. Aunque no siempre controlamos lo que ocurre, sí podemos elegir una respuesta. Poner la energía donde sí tienes influencia es una forma de resiliencia.",
+      "philosophy": {
+        "source": "Inspirado en Epicteto",
+        "idea": "Algunas cosas dependen de nosotros y otras no. La serenidad empieza cuando dejamos de gastar fuerza en lo segundo."
+      },
+      "question": "Piensa en algo que hoy te preocupa.",
+      "interaction": {
+        "type": "control",
+        "prompt": "Escribe brevemente qué te preocupa y elige qué puedes hacer con ello.",
+        "placeholder": "Me preocupa...",
+        "options": [
+          {
+            "label": "Puedo actuar",
+            "feedback": "Entonces elige la acción más pequeña posible y agéndala para hoy o mañana."
+          },
+          {
+            "label": "Puedo cambiar mi respuesta",
+            "feedback": "No controlas la situación, pero sí cómo la miras y qué haces con lo que sientes."
+          },
+          {
+            "label": "No depende de mí",
+            "feedback": "Entonces tu tarea es soltar un poco. Respira y vuelve tu atención a lo que sí puedes cuidar hoy."
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Por ejemplo: no controlas la nota que te pondrán, pero sí cuánto repasas.",
+        "young": "Por ejemplo: no controlas si te eligen, pero sí cómo te preparas.",
+        "adult": "Por ejemplo: no controlas el tráfico, pero sí cómo usas ese tiempo.",
+        "senior": "Por ejemplo: no controlas los cambios del mundo, pero sí cómo cuidas tus días."
+      },
+      "challenge": {
+        "title": "Soltar una cosa",
+        "base": "Identifica una preocupación que no depende de ti y, cuando aparezca, respira y vuelve al presente.",
+        "stages": {
+          "teen": "Cuando aparezca hoy una preocupación que no depende de ti, respira y enfócate en tu siguiente paso.",
+          "young": "Escribe una preocupación que no controlas y una acción que sí controlas.",
+          "adult": "Dedica 5 minutos a la acción que sí depende de ti y suelta el resto por hoy.",
+          "senior": "Cuando aparezca una preocupación ajena a ti, respira y ocúpate de algo que sí cuidas."
+        }
+      },
+      "meditation": {
+        "type": "relaxation",
+        "minutes": 5,
+        "label": "Árbol en el viento"
+      },
+      "ambient": "wind",
+      "reward": {
+        "xp": 130,
+        "label": "Estrella de la Serenidad"
+      },
+      "closing": "No todo está en tus manos. Pero lo que sí está, hoy lo miraste con claridad."
+    },
+    {
+      "day": 13,
+      "title": "Un pequeño acto de valentía",
+      "constellation": "fortaleza",
+      "root": "disciplina",
+      "theme": "Valentía",
+      "objective": "Elegir un acto de valentía a tu medida.",
+      "minutes": 5,
+      "intro": "La valentía no siempre ruge. A veces es una voz tranquila que dice: «lo intentaré de nuevo mañana».",
+      "teaching": "No necesitas grandes gestos para ser valiente. Decir que no, pedir perdón, preguntar lo que no entiendes o mostrar lo que sientes también son actos de valentía.",
+      "philosophy": {
+        "source": "Inspirado en Aristóteles",
+        "idea": "La valentía está entre la temeridad y la cobardía: es actuar a pesar del miedo, con prudencia y a tu medida."
+      },
+      "question": "¿Qué acto de valentía pequeña te gustaría practicar?",
+      "interaction": {
+        "type": "singleChoice",
+        "prompt": "Elige un acto de valentía para esta semana.",
+        "options": [
+          {
+            "label": "Decir que no a algo que no quiero.",
+            "feedback": "Un «no» honesto protege tu tiempo y tu energía. Puedes decirlo con amabilidad."
+          },
+          {
+            "label": "Pedir ayuda o preguntar lo que no entiendo.",
+            "feedback": "Preguntar es una forma de respeto por tu propio aprendizaje."
+          },
+          {
+            "label": "Expresar lo que siento a alguien.",
+            "feedback": "Elige un momento tranquilo y habla desde lo que sientes, no desde la culpa."
+          },
+          {
+            "label": "Intentar algo nuevo aunque no me salga bien.",
+            "feedback": "Lo nuevo casi nunca sale perfecto al principio. Ese es justamente el punto."
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Por ejemplo, decir que no a algo que te incomoda, aunque el grupo insista.",
+        "young": "Por ejemplo, preguntar en una reunión o pedir retroalimentación.",
+        "adult": "Por ejemplo, poner un límite amable o reconocer un error ante tu equipo.",
+        "senior": "Por ejemplo, retomar una actividad que dejaste o hablar de algo pendiente."
+      },
+      "challenge": {
+        "title": "Tu acto valiente",
+        "base": "Practica hoy o mañana el acto de valentía que elegiste, a tu ritmo.",
+        "stages": {
+          "teen": "Practica tu acto de valentía con alguien de confianza primero.",
+          "young": "Practica tu acto de valentía y anota cómo te sentiste después.",
+          "adult": "Practica tu acto de valentía en una situación concreta de esta semana.",
+          "senior": "Practica tu acto de valentía y celebra haberlo intentado."
+        }
+      },
+      "meditation": {
+        "type": "confidence",
+        "minutes": 3,
+        "label": "Voz tranquila"
+      },
+      "ambient": "fire",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella de la Valentía"
+      },
+      "closing": "La valentía no es ausencia de miedo. Es decidir que algo te importa más."
+    },
+    {
+      "day": 14,
+      "title": "Mirar desde arriba",
+      "constellation": "fortaleza",
+      "root": "sabiduria",
+      "theme": "Perspectiva",
+      "objective": "Tomar distancia de un problema para verlo en su tamaño real.",
+      "minutes": 8,
+      "intro": "Cuando estamos muy cerca de un problema, parece enorme. Al alejarnos un poco, recupera su tamaño.",
+      "teaching": "Tomar perspectiva no es restarle importancia a lo que sientes, sino ubicarlo en un paisaje más amplio. Desde arriba, un problema sigue ahí, pero también ves los caminos que lo rodean.",
+      "philosophy": {
+        "source": "Inspirado en Marco Aurelio",
+        "idea": "Imaginar el mundo desde lo alto ayuda a ver nuestros problemas con serenidad y a recordar que somos parte de algo mucho más grande."
+      },
+      "question": "¿Cómo se ve tu preocupación principal desde más lejos?",
+      "interaction": {
+        "type": "visualization",
+        "prompt": "Sigue la visualización y luego escribe cómo se ve tu preocupación desde lejos.",
+        "seconds": 60,
+        "steps": [
+          "Cierra los ojos o baja la mirada.",
+          "Imagina que te ves desde el techo de la habitación.",
+          "Ahora desde lo alto de tu barrio o ciudad.",
+          "Ahora desde las nubes. Todo se ve pequeño y tranquilo.",
+          "Desde aquí, mira tu preocupación. ¿Qué tamaño tiene ahora?"
+        ],
+        "placeholder": "Desde lejos, veo que..."
+      },
+      "examples": {
+        "teen": "Un examen difícil, visto desde un año de distancia, es una parte pequeña del camino.",
+        "young": "Una decisión que hoy parece definitiva, vista desde lejos, suele ser uno de muchos pasos.",
+        "adult": "Un día difícil en el trabajo, visto desde toda tu vida, es un capítulo, no el libro.",
+        "senior": "Desde la experiencia, muchos problemas que parecían enormes hoy se ven como enseñanzas."
+      },
+      "challenge": {
+        "title": "La pregunta del año",
+        "base": "Ante una preocupación, pregúntate: ¿esto importará dentro de un año?",
+        "stages": {
+          "teen": "Cuando algo te agobie hoy, pregúntate: ¿esto importará dentro de un año?",
+          "young": "Aplica la pregunta del año a una decisión que te está costando.",
+          "adult": "Usa la pregunta del año antes de responder a algo que te irrita.",
+          "senior": "Comparte con alguien la pregunta del año cuando lo veas preocupado."
+        }
+      },
+      "meditation": {
+        "type": "relaxation",
+        "minutes": 5,
+        "label": "Vista desde lo alto"
+      },
+      "ambient": "sea",
+      "reward": {
+        "xp": 150,
+        "label": "Estrella de la Perspectiva"
+      },
+      "closing": "Completaste la Constelación Fortaleza. Tu árbol ya es joven y sus raíces se hacen más profundas."
+    },
+    {
+      "day": 15,
+      "title": "Somos lo que repetimos",
+      "constellation": "accion",
+      "root": "disciplina",
+      "theme": "Hábitos",
+      "objective": "Revisar tus hábitos actuales sin culpa y elegir uno para sembrar.",
+      "minutes": 7,
+      "intro": "Buena parte de tu día ocurre en piloto automático. Los hábitos son ese piloto: pueden llevarte lejos o dejarte en círculos.",
+      "teaching": "Un hábito no se cambia con fuerza de voluntad pura, sino con diseño: hacerlo fácil, visible y pequeño. Primero se observa, luego se ajusta.",
+      "philosophy": {
+        "source": "Inspirado en Aristóteles",
+        "idea": "Somos lo que hacemos repetidamente. La excelencia no es un acto aislado, sino una costumbre que se cultiva."
+      },
+      "question": "¿Qué hábitos te ayudan y cuáles te gustaría ajustar?",
+      "interaction": {
+        "type": "habitReview",
+        "prompt": "Marca cómo te sientes con cada hábito. Luego escribe un hábito pequeño que quieras sembrar.",
+        "habits": [
+          "Dormir a una hora similar",
+          "Usar el teléfono al despertar",
+          "Moverme o caminar",
+          "Tomar agua durante el día",
+          "Dejar tareas para el final",
+          "Tener momentos sin pantallas"
+        ],
+        "placeholder": "Un hábito pequeño que quiero sembrar es..."
+      },
+      "examples": {
+        "teen": "Por ejemplo: revisar redes antes de dormir puede cambiarse por leer 5 minutos.",
+        "young": "Por ejemplo: empezar el día con el correo puede cambiarse por 2 minutos de planificación.",
+        "adult": "Por ejemplo: comer frente a la pantalla puede cambiarse por una comida sin interrupciones.",
+        "senior": "Por ejemplo: pasar la tarde sentado puede cambiarse por una caminata corta."
+      },
+      "challenge": {
+        "title": "Sembrar un hábito",
+        "base": "Haz hoy la versión más pequeña del hábito que quieres sembrar.",
+        "stages": {
+          "teen": "Haz hoy la versión de 2 minutos de tu nuevo hábito.",
+          "young": "Conecta tu nuevo hábito con algo que ya haces (después de lavarme los dientes...).",
+          "adult": "Deja preparado lo necesario para que tu nuevo hábito sea fácil mañana.",
+          "senior": "Practica tu nuevo hábito a la misma hora hoy y mañana."
+        }
+      },
+      "meditation": {
+        "type": "morning",
+        "minutes": 3,
+        "label": "Preparar el día"
+      },
+      "ambient": "forest",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella del Hábito"
+      },
+      "closing": "Hoy sembraste una semilla pequeña. Las semillas pequeñas también se vuelven árboles."
+    },
+    {
+      "day": 16,
+      "title": "Disciplina amable",
+      "constellation": "accion",
+      "root": "disciplina",
+      "theme": "Disciplina",
+      "objective": "Reconstruir la idea de disciplina desde el cuidado y no desde el castigo.",
+      "minutes": 5,
+      "intro": "Durante mucho tiempo nos enseñaron que la disciplina es dureza. Hoy exploramos otra posibilidad.",
+      "teaching": "La disciplina amable consiste en hacer lo que importa incluso cuando no tienes ganas, pero sin insultarte cuando fallas. Es firme en la dirección y flexible en el camino.",
+      "philosophy": {
+        "source": "Inspirado en Marco Aurelio",
+        "idea": "Levantarse cada mañana para hacer lo que corresponde, sin dramatismo y sin castigo, es una forma serena de dignidad."
+      },
+      "question": "¿Con qué tipo de disciplina te identificas más?",
+      "interaction": {
+        "type": "singleChoice",
+        "prompt": "Elige la opción más honesta.",
+        "options": [
+          {
+            "label": "Todo o nada: si fallo un día, abandono.",
+            "feedback": "Prueba la regla de «nunca dos veces»: si fallas un día, vuelve al siguiente."
+          },
+          {
+            "label": "Me exijo mucho y me castigo si no cumplo.",
+            "feedback": "El castigo agota. Cambia la crítica por una pregunta: ¿qué haría más fácil cumplir mañana?"
+          },
+          {
+            "label": "Me cuesta empezar, pero luego sigo.",
+            "feedback": "Entonces tu clave es el inicio. Haz que empezar sea ridículamente fácil."
+          },
+          {
+            "label": "Soy constante la mayoría de días.",
+            "feedback": "Esa constancia es valiosa. Cuida también tus descansos."
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Estudiar 15 minutos cada día suele funcionar mejor que 3 horas la noche anterior.",
+        "young": "Entrenar 20 minutos tres veces por semana supera a un plan perfecto que nunca empieza.",
+        "adult": "Una rutina corta y sostenible vale más que una intensa que abandonas en una semana.",
+        "senior": "Una práctica suave y diaria mantiene el cuerpo y la mente despiertos."
+      },
+      "challenge": {
+        "title": "Nunca dos veces",
+        "base": "Elige algo que dejaste de hacer y retómalo hoy en su versión más simple.",
+        "stages": {
+          "teen": "Retoma algo que dejaste (leer, dibujar, entrenar) aunque sea 5 minutos.",
+          "young": "Retoma hoy una rutina que abandonaste, en su versión mínima.",
+          "adult": "Retoma una práctica que te hacía bien y dale 10 minutos hoy.",
+          "senior": "Retoma una actividad que disfrutabas y dedícale un rato hoy."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 3,
+        "label": "Firme y flexible"
+      },
+      "ambient": "water",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de la Disciplina Amable"
+      },
+      "closing": "Estás construyendo constancia. Y la estás construyendo con amabilidad."
+    },
+    {
+      "day": 17,
+      "title": "El arte de empezar",
+      "constellation": "accion",
+      "root": "disciplina",
+      "theme": "Procrastinación",
+      "objective": "Reducir una tarea pendiente a un primer paso de dos minutos.",
+      "minutes": 6,
+      "intro": "Posponer no siempre es pereza. Muchas veces es una forma de evitar una emoción incómoda: aburrimiento, miedo o inseguridad.",
+      "teaching": "Cuando una tarea parece enorme, la mente la evita. El truco no es obligarte a terminarla, sino hacer que empezar sea tan fácil que casi no puedas decir que no.",
+      "philosophy": {
+        "source": "Inspirado en Séneca",
+        "idea": "Mientras esperamos el momento ideal, la vida pasa. Empieza con lo que tienes, donde estás."
+      },
+      "question": "¿Qué estás posponiendo y cuál sería el primer paso de dos minutos?",
+      "interaction": {
+        "type": "fields",
+        "prompt": "Divide tu tarea pendiente hasta encontrar un paso diminuto.",
+        "fields": [
+          {
+            "label": "Lo que estoy posponiendo",
+            "placeholder": "Ej.: ordenar mis apuntes"
+          },
+          {
+            "label": "Mi primer paso de 2 minutos",
+            "placeholder": "Ej.: abrir el cuaderno y ordenar una página"
+          }
+        ],
+        "minFilled": 2
+      },
+      "examples": {
+        "teen": "Por ejemplo: «hacer el trabajo» se convierte en «escribir el título y tres ideas».",
+        "young": "Por ejemplo: «actualizar mi CV» se convierte en «abrir el archivo y cambiar una línea».",
+        "adult": "Por ejemplo: «ordenar la casa» se convierte en «despejar una superficie».",
+        "senior": "Por ejemplo: «organizar fotos» se convierte en «elegir cinco fotos favoritas»."
+      },
+      "challenge": {
+        "title": "Dos minutos",
+        "base": "Haz hoy el primer paso de dos minutos de la tarea que estabas posponiendo.",
+        "stages": {
+          "teen": "Pon un temporizador de 2 minutos y empieza esa tarea que vienes posponiendo.",
+          "young": "Haz tu paso de 2 minutos antes de revisar el teléfono.",
+          "adult": "Haz tu paso de 2 minutos antes de la próxima pausa.",
+          "senior": "Haz tu paso de 2 minutos con calma y observa cómo te sientes al terminar."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 3,
+        "label": "Solo el primer paso"
+      },
+      "ambient": "rain",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella del Comienzo"
+      },
+      "closing": "Empezar es la mitad del camino. Hoy lo hiciste más fácil."
+    },
+    {
+      "day": 18,
+      "title": "Constancia sin perfección",
+      "constellation": "accion",
+      "root": "disciplina",
+      "theme": "Constancia",
+      "objective": "Evaluar tu constancia con honestidad y sin culpa.",
+      "minutes": 5,
+      "intro": "La constancia no es no fallar nunca. Es volver una y otra vez.",
+      "teaching": "Un camino constante se parece más a una línea con curvas que a una recta perfecta. Lo que importa no es cuántas veces te sales, sino cuántas vuelves.",
+      "philosophy": {
+        "source": "Inspirado en Lao Tse",
+        "idea": "Un viaje de mil pasos empieza con uno, y continúa con otro. No hace falta ver todo el camino para dar el siguiente paso."
+      },
+      "question": "¿Cómo va el hábito que sembraste en el Día 15?",
+      "recallDay": 15,
+      "interaction": {
+        "type": "scale",
+        "prompt": "Del 0 al 10, ¿qué tan presente estuvo tu nuevo hábito estos días?",
+        "minLabel": "Nada presente",
+        "maxLabel": "Muy presente",
+        "low": "No pasa nada. Hazlo aún más pequeño y vuelve a intentarlo hoy. Volver es el verdadero hábito.",
+        "mid": "Vas avanzando. Busca qué días funcionó y qué los hizo más fáciles.",
+        "high": "Tu hábito está echando raíces. Mantén el ritmo sin exigirte más de la cuenta."
+      },
+      "examples": {
+        "teen": "Si faltaste dos días, no empiezas de cero: retomas desde lo que ya aprendiste.",
+        "young": "Si tu semana fue caótica, un día bueno ya cuenta como avance.",
+        "adult": "Si el trabajo te absorbió, la versión mínima del hábito también vale.",
+        "senior": "Si tu cuerpo pidió descanso, escucharlo también es constancia."
+      },
+      "challenge": {
+        "title": "Volver",
+        "base": "Haz hoy tu hábito, aunque sea en su versión más mínima.",
+        "stages": {
+          "teen": "Haz hoy tu hábito aunque sea 1 minuto. Volver cuenta.",
+          "young": "Haz tu hábito hoy y márcalo en un calendario visible.",
+          "adult": "Haz la versión mínima de tu hábito aunque el día esté lleno.",
+          "senior": "Haz tu hábito hoy con calma y felicítate por volver."
+        }
+      },
+      "meditation": {
+        "type": "breathing",
+        "minutes": 3,
+        "label": "Volver al centro"
+      },
+      "ambient": "water",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de la Constancia"
+      },
+      "closing": "No necesitas un camino perfecto. Necesitas uno al que puedas volver."
+    },
+    {
+      "day": 19,
+      "title": "Una meta con nombre",
+      "constellation": "accion",
+      "root": "proposito",
+      "theme": "Metas",
+      "objective": "Definir una meta clara, significativa y alcanzable.",
+      "minutes": 8,
+      "intro": "Una meta sin nombre es solo un deseo que flota. Cuando la nombras, empieza a tomar forma.",
+      "teaching": "Las metas que más se cumplen son concretas, tienen un «para qué» que te importa y un primer paso claro. No necesitas metas enormes; necesitas metas vivas.",
+      "philosophy": {
+        "source": "Inspirado en Viktor Frankl",
+        "idea": "Quien tiene un porqué encuentra la manera de sostener el cómo. El sentido da fuerza a la acción."
+      },
+      "question": "¿Qué meta te gustaría alcanzar en las próximas semanas?",
+      "interaction": {
+        "type": "fields",
+        "prompt": "Dale forma a tu meta.",
+        "fields": [
+          {
+            "label": "Mi meta",
+            "placeholder": "Ej.: leer un libro este mes"
+          },
+          {
+            "label": "¿Para qué me importa?",
+            "placeholder": "Ej.: para volver a disfrutar de aprender"
+          },
+          {
+            "label": "Mi primer paso",
+            "placeholder": "Ej.: leer 10 páginas esta noche"
+          }
+        ],
+        "minFilled": 2
+      },
+      "examples": {
+        "teen": "Por ejemplo: mejorar en una materia, aprender una habilidad o cuidar una amistad.",
+        "young": "Por ejemplo: avanzar un proyecto, ahorrar para algo o mejorar tu descanso.",
+        "adult": "Por ejemplo: recuperar tiempo personal, aprender algo nuevo o cuidar tu salud.",
+        "senior": "Por ejemplo: aprender algo que siempre quisiste, reconectar con alguien o escribir recuerdos."
+      },
+      "challenge": {
+        "title": "El primer paso",
+        "base": "Da hoy el primer paso de tu meta.",
+        "stages": {
+          "teen": "Da hoy el primer paso de tu meta y cuéntaselo a alguien de confianza.",
+          "young": "Agenda el primer paso de tu meta en un momento concreto y cúmplelo.",
+          "adult": "Reserva 15 minutos para el primer paso de tu meta.",
+          "senior": "Da el primer paso de tu meta y anota cómo te sentiste."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 5,
+        "label": "Ver la meta con claridad"
+      },
+      "ambient": "wind",
+      "reward": {
+        "xp": 130,
+        "label": "Estrella de la Meta"
+      },
+      "closing": "Tu meta ya tiene nombre. Ahora también tiene un camino."
+    },
+    {
+      "day": 20,
+      "title": "Microacciones",
+      "constellation": "accion",
+      "root": "disciplina",
+      "theme": "Microacciones",
+      "objective": "Elegir acciones mínimas que puedan sostenerse cada día.",
+      "minutes": 5,
+      "intro": "Las grandes transformaciones suelen estar hechas de acciones tan pequeñas que casi no se ven.",
+      "teaching": "Una microacción dura menos de cinco minutos y no requiere motivación especial. Por eso funciona: no depende de un buen día, sino de una decisión sencilla.",
+      "philosophy": {
+        "source": "Inspirado en Lao Tse",
+        "idea": "Lo difícil se hace mientras es fácil; lo grande, mientras es pequeño."
+      },
+      "question": "¿Qué microacciones podrías sostener durante la próxima semana?",
+      "interaction": {
+        "type": "multiChoice",
+        "prompt": "Elige hasta tres microacciones para esta semana.",
+        "max": 3,
+        "options": [
+          "Tender la cama",
+          "Beber un vaso de agua al despertar",
+          "Estirar dos minutos",
+          "Escribir una línea en el diario",
+          "Ordenar una cosa",
+          "Leer una página",
+          "Respirar un minuto",
+          "Enviar un mensaje amable",
+          "Caminar cinco minutos sin teléfono"
+        ]
+      },
+      "examples": {
+        "teen": "Por ejemplo: preparar la mochila la noche anterior.",
+        "young": "Por ejemplo: dejar la ropa de entrenamiento lista.",
+        "adult": "Por ejemplo: cerrar el día anotando las tres prioridades de mañana.",
+        "senior": "Por ejemplo: regar una planta cada mañana con atención."
+      },
+      "challenge": {
+        "title": "Tres microacciones",
+        "base": "Realiza hoy las microacciones que elegiste.",
+        "stages": {
+          "teen": "Haz hoy tus microacciones y fíjate cuál fue la más fácil.",
+          "young": "Haz tus microacciones hoy y encadénalas a una rutina que ya tienes.",
+          "adult": "Haz tus microacciones y observa cómo cambia tu energía.",
+          "senior": "Haz tus microacciones con calma y disfrútalas."
+        }
+      },
+      "meditation": {
+        "type": "morning",
+        "minutes": 1,
+        "label": "Un minuto para empezar"
+      },
+      "ambient": "forest",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de lo Pequeño"
+      },
+      "closing": "Lo pequeño, repetido, se vuelve enorme. Hoy lo sabes por experiencia."
+    },
+    {
+      "day": 21,
+      "title": "Mi compromiso",
+      "constellation": "accion",
+      "root": "proposito",
+      "theme": "Compromiso personal",
+      "objective": "Escribir un compromiso breve contigo para las próximas semanas.",
+      "minutes": 6,
+      "intro": "Tres semanas de viaje. Ya sabes más de tus fortalezas, tus miedos y tus hábitos. Es momento de comprometerte, con cariño, contigo.",
+      "teaching": "Un compromiso personal no es una promesa perfecta; es una intención clara que puedes revisar. Escribirlo lo vuelve visible y le da peso.",
+      "philosophy": {
+        "source": "Inspirado en Séneca",
+        "idea": "Decide qué clase de persona quieres ser y actúa como tal en las cosas pequeñas. Así se construye la coherencia."
+      },
+      "question": "¿Qué quieres comprometerte a cuidar en ti durante las próximas semanas?",
+      "interaction": {
+        "type": "futureMessage",
+        "prompt": "Escribe un mensaje breve a tu yo de dentro de una semana.",
+        "placeholder": "Dentro de una semana quiero que recuerdes que te comprometiste a...",
+        "minLength": 3
+      },
+      "examples": {
+        "teen": "Por ejemplo: «Me comprometo a tratarme mejor cuando me equivoque».",
+        "young": "Por ejemplo: «Me comprometo a dedicar tiempo a lo que realmente me importa».",
+        "adult": "Por ejemplo: «Me comprometo a proteger un rato diario para mí».",
+        "senior": "Por ejemplo: «Me comprometo a seguir aprendiendo algo cada semana»."
+      },
+      "challenge": {
+        "title": "Hacer visible tu compromiso",
+        "base": "Escribe tu compromiso en un lugar donde lo veas cada día.",
+        "stages": {
+          "teen": "Escribe tu compromiso en tu cuaderno o como recordatorio en tu teléfono.",
+          "young": "Coloca tu compromiso donde lo veas al empezar el día.",
+          "adult": "Comparte tu compromiso con alguien que pueda apoyarte.",
+          "senior": "Escribe tu compromiso a mano y guárdalo en un lugar especial."
+        }
+      },
+      "meditation": {
+        "type": "confidence",
+        "minutes": 5,
+        "label": "Sostener tu palabra"
+      },
+      "ambient": "fire",
+      "reward": {
+        "xp": 150,
+        "label": "Estrella del Compromiso"
+      },
+      "closing": "Completaste la Constelación Acción. Tu árbol crece porque no dejaste de volver."
+    },
+    {
+      "day": 22,
+      "title": "Lo que da sentido",
+      "constellation": "legado",
+      "root": "proposito",
+      "theme": "Propósito",
+      "objective": "Reconocer dónde encuentras sentido en tu vida cotidiana.",
+      "minutes": 6,
+      "intro": "El propósito no siempre es una revelación grandiosa. A menudo se esconde en lo que hacemos cada día con cuidado.",
+      "teaching": "Puedes encontrar sentido en lo que creas, en lo que das, en cómo enfrentas lo difícil y en lo que amas. No necesitas tener todas las respuestas para vivir con dirección.",
+      "philosophy": {
+        "source": "Inspirado en Viktor Frankl",
+        "idea": "El sentido no se inventa de la nada: se descubre en lo que hacemos, en lo que amamos y en la actitud con la que atravesamos lo difícil."
+      },
+      "question": "¿Dónde sientes más sentido últimamente?",
+      "interaction": {
+        "type": "singleChoice",
+        "prompt": "Elige la fuente de sentido que más resuena contigo hoy.",
+        "options": [
+          {
+            "label": "En lo que creo o construyo.",
+            "feedback": "Crear deja huella. Protege tiempo para eso que construyes."
+          },
+          {
+            "label": "En las personas que quiero.",
+            "feedback": "Los vínculos dan sentido a casi todo. Hoy cuida uno con intención."
+          },
+          {
+            "label": "En aprender y crecer.",
+            "feedback": "El aprendizaje mantiene viva la curiosidad. Elige algo nuevo que explorar."
+          },
+          {
+            "label": "En ayudar o aportar a otros.",
+            "feedback": "Aportar conecta tu vida con algo más grande. Busca una forma pequeña de hacerlo hoy."
+          },
+          {
+            "label": "Todavía lo estoy buscando.",
+            "feedback": "Buscar ya es una forma de avanzar. Presta atención a lo que te hace perder la noción del tiempo."
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Quizá encuentras sentido en ayudar a un amigo, crear música o aprender algo que te apasiona.",
+        "young": "Quizá encuentras sentido en tu vocación, en un proyecto o en las personas que eliges.",
+        "adult": "Quizá encuentras sentido en cuidar a otros, en tu trabajo bien hecho o en enseñar.",
+        "senior": "Quizá encuentras sentido en acompañar, transmitir experiencia o disfrutar lo sencillo."
+      },
+      "challenge": {
+        "title": "Una hora con sentido",
+        "base": "Dedica un rato hoy a algo que te dé sentido.",
+        "stages": {
+          "teen": "Dedica 20 minutos hoy a algo que te haga sentir que vale la pena.",
+          "young": "Dedica un bloque de tiempo hoy a lo que te da sentido, sin distracciones.",
+          "adult": "Busca un momento hoy para algo significativo, aunque sea breve.",
+          "senior": "Dedica un rato hoy a algo que te llene de sentido y compártelo."
+        }
+      },
+      "meditation": {
+        "type": "gratitude",
+        "minutes": 5,
+        "label": "Encontrar el porqué"
+      },
+      "ambient": "night",
+      "reward": {
+        "xp": 130,
+        "label": "Estrella del Sentido"
+      },
+      "closing": "El sentido no está lejos. A veces está en lo que ya haces, mirado con otros ojos."
+    },
+    {
+      "day": 23,
+      "title": "Las personas que te sostienen",
+      "constellation": "legado",
+      "root": "relaciones",
+      "theme": "Relaciones",
+      "objective": "Reconocer tu red de apoyo y fortalecerla.",
+      "minutes": 6,
+      "intro": "Como las raíces de un bosque, las personas se sostienen entre sí de maneras que no siempre se ven.",
+      "teaching": "Tener apoyo no significa depender, sino saber que no estás en soledad absoluta. Reconocer quiénes te sostienen también te recuerda a quién puedes sostener tú.",
+      "philosophy": {
+        "source": "Inspirado en Aristóteles",
+        "idea": "La amistad verdadera es aquella en la que deseamos el bien del otro por sí mismo. Es uno de los bienes más grandes de la vida."
+      },
+      "question": "¿Quiénes forman parte de tus raíces?",
+      "interaction": {
+        "type": "fields",
+        "prompt": "Piensa en personas concretas. Puedes usar solo iniciales si prefieres.",
+        "fields": [
+          {
+            "label": "Alguien que me inspira",
+            "placeholder": "Nombre o inicial"
+          },
+          {
+            "label": "Alguien que me escucha",
+            "placeholder": "Nombre o inicial"
+          },
+          {
+            "label": "Alguien a quien me gustaría acercarme",
+            "placeholder": "Nombre o inicial"
+          }
+        ],
+        "minFilled": 1
+      },
+      "examples": {
+        "teen": "Puede ser un familiar, un amigo, un profesor o alguien de un club o grupo.",
+        "young": "Puede ser un amigo, un mentor, un compañero de estudios o de trabajo.",
+        "adult": "Puede ser tu pareja, un amigo de años, un colega o un vecino.",
+        "senior": "Puede ser un familiar, un amigo de toda la vida o alguien de tu comunidad."
+      },
+      "challenge": {
+        "title": "Acercarte",
+        "base": "Envía un mensaje breve a alguien de tu lista.",
+        "stages": {
+          "teen": "Envía un mensaje a alguien de tu lista para saber cómo está.",
+          "young": "Escribe a alguien que te inspira y cuéntale por qué.",
+          "adult": "Llama o escribe a alguien con quien hace tiempo no hablas.",
+          "senior": "Llama a alguien querido solo para conversar un rato."
+        }
+      },
+      "meditation": {
+        "type": "gratitude",
+        "minutes": 3,
+        "label": "Raíces compartidas"
+      },
+      "ambient": "forest",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella del Bosque"
+      },
+      "closing": "Tus raíces se entrelazan con otras. Esa red también es parte de tu fuerza."
+    },
+    {
+      "day": 24,
+      "title": "Gratitud que se nota",
+      "constellation": "legado",
+      "root": "relaciones",
+      "theme": "Gratitud",
+      "objective": "Practicar la gratitud concreta y expresarla.",
+      "minutes": 5,
+      "intro": "La gratitud no niega lo difícil. Simplemente ilumina también lo que sí está bien.",
+      "teaching": "La gratitud concreta tiene más fuerza que la genérica. No es lo mismo «agradezco a mi familia» que «agradezco que mi hermana me escuchó ayer».",
+      "philosophy": {
+        "source": "Inspirado en Epicteto",
+        "idea": "Es sabio quien no se lamenta por lo que no tiene y se alegra por lo que sí tiene."
+      },
+      "question": "¿Qué tres cosas concretas agradeces hoy?",
+      "interaction": {
+        "type": "fields",
+        "prompt": "Escribe tres cosas concretas que agradeces.",
+        "fields": [
+          {
+            "label": "Agradezco...",
+            "placeholder": "Algo que pasó hoy"
+          },
+          {
+            "label": "Agradezco...",
+            "placeholder": "Alguien que hizo algo por mí"
+          },
+          {
+            "label": "Agradezco...",
+            "placeholder": "Algo de mí mismo"
+          }
+        ],
+        "minFilled": 1
+      },
+      "examples": {
+        "teen": "Por ejemplo: una risa con amigos, una comida rica o haber terminado una tarea.",
+        "young": "Por ejemplo: un consejo útil, un café tranquilo o una conversación honesta.",
+        "adult": "Por ejemplo: un momento en familia, un gesto de un colega o un rato de descanso.",
+        "senior": "Por ejemplo: una llamada, un paseo al sol o un recuerdo que te hizo sonreír."
+      },
+      "challenge": {
+        "title": "Agradecer a alguien",
+        "base": "Agradece hoy a alguien de forma concreta.",
+        "stages": {
+          "teen": "Da las gracias a alguien diciéndole exactamente qué te ayudó.",
+          "young": "Envía un mensaje de agradecimiento concreto a alguien.",
+          "adult": "Agradece a alguien del trabajo o de casa algo específico que hizo.",
+          "senior": "Escribe una nota de gratitud a alguien importante para ti."
+        }
+      },
+      "meditation": {
+        "type": "gratitude",
+        "minutes": 3,
+        "label": "Luz en lo cotidiano"
+      },
+      "ambient": "water",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella de la Gratitud"
+      },
+      "closing": "Agradecer es una forma de ver. Hoy viste más luz."
+    },
+    {
+      "day": 25,
+      "title": "Escuchar de verdad",
+      "constellation": "legado",
+      "root": "relaciones",
+      "theme": "Relaciones",
+      "objective": "Practicar la escucha presente como regalo para otros.",
+      "minutes": 5,
+      "intro": "Uno de los regalos más valiosos que puedes dar no cuesta dinero: tu atención completa.",
+      "teaching": "Escuchar de verdad es escuchar para comprender, no para responder. Significa dejar el teléfono, mirar a la otra persona y preguntar antes de aconsejar.",
+      "philosophy": {
+        "source": "Inspirado en Lao Tse",
+        "idea": "El silencio atento también es una forma de hablar. A veces, lo más sabio es escuchar."
+      },
+      "question": "¿Qué tan presente estuviste en tu última conversación importante?",
+      "interaction": {
+        "type": "scale",
+        "prompt": "Del 0 al 10, ¿qué tan presente estuviste en tu última conversación importante?",
+        "minLabel": "Muy distraído",
+        "maxLabel": "Totalmente presente",
+        "low": "Nos pasa a todos. En tu próxima conversación, prueba dejar el teléfono fuera de la vista.",
+        "mid": "Estuviste a medias. Prueba hacer una pregunta más antes de dar tu opinión.",
+        "high": "Qué bien. Esa presencia hace que otros se sientan valiosos."
+      },
+      "examples": {
+        "teen": "Por ejemplo, cuando un amigo te cuenta algo, deja el teléfono y pregúntale cómo se siente.",
+        "young": "Por ejemplo, en una conversación importante, resume lo que entendiste antes de responder.",
+        "adult": "Por ejemplo, al llegar a casa, dedica diez minutos de escucha plena a alguien.",
+        "senior": "Por ejemplo, pregunta a alguien más joven por sus sueños y escucha sin aconsejar."
+      },
+      "challenge": {
+        "title": "Diez minutos de presencia",
+        "base": "Ten hoy una conversación de diez minutos sin teléfono.",
+        "stages": {
+          "teen": "Habla diez minutos con alguien sin mirar el teléfono.",
+          "young": "Ten una conversación sin pantallas y haz al menos dos preguntas abiertas.",
+          "adult": "Dedica diez minutos de escucha plena a alguien de tu casa o trabajo.",
+          "senior": "Invita a alguien a conversar y escucha su historia con atención."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 3,
+        "label": "Atención plena"
+      },
+      "ambient": "sea",
+      "reward": {
+        "xp": 110,
+        "label": "Estrella de la Escucha"
+      },
+      "closing": "Escuchar es una forma de decir: «me importas». Hoy lo practicaste."
+    },
+    {
+      "day": 26,
+      "title": "Tus valores en acción",
+      "constellation": "legado",
+      "root": "proposito",
+      "theme": "Valores",
+      "objective": "Traducir tus valores en una acción concreta.",
+      "minutes": 6,
+      "intro": "En el Día 5 elegiste tus valores. Hoy los volvemos a mirar, ahora con todo lo que has vivido en este viaje.",
+      "teaching": "Un valor que no se practica se vuelve una idea bonita. Un valor practicado se convierte en carácter. La pregunta no es qué valoras, sino cómo se nota.",
+      "philosophy": {
+        "source": "Inspirado en Marco Aurelio",
+        "idea": "No pierdas más tiempo discutiendo cómo debería ser una buena persona. Sé una."
+      },
+      "question": "¿Cómo se vería uno de tus valores convertido en acción esta semana?",
+      "recallDay": 5,
+      "interaction": {
+        "type": "freeText",
+        "prompt": "Elige uno de tus valores y describe una acción concreta que lo haga visible.",
+        "placeholder": "Mi valor es... y esta semana lo mostraré cuando...",
+        "minLength": 3
+      },
+      "examples": {
+        "teen": "Si valoras la amistad, podrías defender a alguien que está siendo excluido.",
+        "young": "Si valoras la libertad, podrías decir que no a algo que no elegirías.",
+        "adult": "Si valoras la salud, podrías proteger tus horas de sueño esta semana.",
+        "senior": "Si valoras la generosidad, podrías compartir tu tiempo con alguien que lo necesita."
+      },
+      "challenge": {
+        "title": "Coherencia",
+        "base": "Realiza hoy la acción que describiste.",
+        "stages": {
+          "teen": "Haz hoy la acción que refleja tu valor y observa cómo te sientes.",
+          "young": "Haz tu acción de valor hoy, aunque sea en pequeño.",
+          "adult": "Haz tu acción de valor hoy en casa o en el trabajo.",
+          "senior": "Haz tu acción de valor hoy y compártela con alguien."
+        }
+      },
+      "meditation": {
+        "type": "focus",
+        "minutes": 5,
+        "label": "Vivir lo que valoras"
+      },
+      "ambient": "wind",
+      "reward": {
+        "xp": 130,
+        "label": "Estrella de la Coherencia"
+      },
+      "closing": "Hoy tus valores dejaron de ser palabras y se volvieron pasos."
+    },
+    {
+      "day": 27,
+      "title": "El tiempo que tienes",
+      "constellation": "legado",
+      "root": "legado",
+      "theme": "Futuro",
+      "objective": "Reflexionar sobre cómo usas tu tiempo y qué quieres priorizar.",
+      "minutes": 6,
+      "intro": "El tiempo es el recurso que más gastamos sin darnos cuenta.",
+      "teaching": "No se trata de hacer más cosas, sino de hacer más de lo que importa. Revisar cómo usas tu tiempo es una forma de decidir quién quieres ser.",
+      "philosophy": {
+        "source": "Inspirado en Séneca",
+        "idea": "La vida no es corta; la hacemos corta cuando la desperdiciamos en lo que no importa. Bien usada, es suficientemente larga."
+      },
+      "question": "Si tuvieras una hora libre extra cada día, ¿en qué la usarías?",
+      "interaction": {
+        "type": "singleChoice",
+        "prompt": "Elige cómo usarías esa hora.",
+        "options": [
+          {
+            "label": "Descansar y recuperar energía.",
+            "feedback": "El descanso no es tiempo perdido. Busca aunque sea 15 minutos de descanso real hoy."
+          },
+          {
+            "label": "Estar con personas que quiero.",
+            "feedback": "Las personas son el mejor uso del tiempo. ¿A quién podrías ver esta semana?"
+          },
+          {
+            "label": "Aprender o crear algo.",
+            "feedback": "Esa curiosidad es un motor. Reserva un pequeño bloque semanal para ello."
+          },
+          {
+            "label": "Moverme y cuidar mi cuerpo.",
+            "feedback": "Cuidar tu cuerpo es cuidar tu casa. Empieza con algo breve."
+          },
+          {
+            "label": "Estar en silencio o en la naturaleza.",
+            "feedback": "El silencio ordena por dentro. Búscalo aunque sea unos minutos."
+          }
+        ]
+      },
+      "examples": {
+        "teen": "Quizá descubras que tus redes consumen tiempo que querrías usar en otra cosa.",
+        "young": "Quizá descubras que dices que sí a demasiadas cosas.",
+        "adult": "Quizá descubras que te queda poco tiempo para ti y eso merece atención.",
+        "senior": "Quizá descubras que tienes tiempo para algo que siempre postergaste."
+      },
+      "challenge": {
+        "title": "Recuperar 15 minutos",
+        "base": "Recupera hoy 15 minutos para lo que elegiste.",
+        "stages": {
+          "teen": "Cambia 15 minutos de redes por lo que elegiste.",
+          "young": "Bloquea 15 minutos en tu día para lo que elegiste.",
+          "adult": "Encuentra 15 minutos hoy para lo que elegiste, aunque sea al final del día.",
+          "senior": "Dedica 15 minutos a lo que elegiste con total presencia."
+        }
+      },
+      "meditation": {
+        "type": "relaxation",
+        "minutes": 5,
+        "label": "El presente es suficiente"
+      },
+      "ambient": "night",
+      "reward": {
+        "xp": 120,
+        "label": "Estrella del Tiempo"
+      },
+      "closing": "Tu tiempo es tu vida en pequeñas porciones. Hoy elegiste cuidarlo."
+    },
+    {
+      "day": 28,
+      "title": "Soñar con los pies en la tierra",
+      "constellation": "legado",
+      "root": "proposito",
+      "theme": "Sueños",
+      "objective": "Visualizar un futuro deseado y conectarlo con un paso real.",
+      "minutes": 8,
+      "intro": "Soñar no es escapar de la realidad. Es imaginar una dirección para caminar en ella.",
+      "teaching": "Los sueños necesitan dos cosas: una imagen que te motive y un paso que puedas dar. Sin imagen falta dirección; sin paso, el sueño se queda flotando.",
+      "philosophy": {
+        "source": "Inspirado en Viktor Frankl",
+        "idea": "Mirar hacia un futuro con sentido nos ayuda a sostener el presente, incluso cuando es difícil."
+      },
+      "question": "¿Cómo se ve un día en la vida que te gustaría construir?",
+      "recallDay": 19,
+      "interaction": {
+        "type": "visualization",
+        "prompt": "Imagina un día de tu vida dentro de un año. Luego escribe lo que viste.",
+        "seconds": 75,
+        "steps": [
+          "Respira y deja que tu cuerpo se relaje.",
+          "Imagina que despiertas dentro de un año, en un día que te gusta.",
+          "¿Dónde estás? ¿Qué ves y qué escuchas?",
+          "¿Con quién compartes ese día? ¿Qué haces?",
+          "¿Cómo te sientes contigo en ese futuro?"
+        ],
+        "placeholder": "En ese día me vi..."
+      },
+      "examples": {
+        "teen": "Quizá te ves más seguro, estudiando lo que te gusta o con amistades que te hacen bien.",
+        "young": "Quizá te ves avanzando en tu camino, con hábitos que te sostienen.",
+        "adult": "Quizá te ves con más equilibrio, más presencia y tiempo para lo que amas.",
+        "senior": "Quizá te ves disfrutando, aprendiendo y rodeado de personas queridas."
+      },
+      "challenge": {
+        "title": "Un paso hacia el sueño",
+        "base": "Haz hoy una acción pequeña que acerque ese día imaginado.",
+        "stages": {
+          "teen": "Haz hoy algo pequeño que te acerque a ese futuro que imaginaste.",
+          "young": "Identifica una acción semanal que te acerque a ese día y empieza hoy.",
+          "adult": "Elige un cambio pequeño en tu rutina que se parezca a ese día.",
+          "senior": "Haz hoy algo de ese día imaginado, aunque sea en pequeña escala."
+        }
+      },
+      "meditation": {
+        "type": "sleep",
+        "minutes": 5,
+        "label": "Soñar despierto"
+      },
+      "ambient": "night",
+      "reward": {
+        "xp": 140,
+        "label": "Estrella del Sueño"
+      },
+      "closing": "Soñaste con los pies en la tierra. Ese es el tipo de sueño que se construye."
+    },
+    {
+      "day": 29,
+      "title": "Lo que dejas en otros",
+      "constellation": "legado",
+      "root": "legado",
+      "theme": "Contribución",
+      "objective": "Reconocer cómo quieres influir positivamente en otros.",
+      "minutes": 6,
+      "intro": "Cada día dejas pequeñas huellas en las personas con las que te cruzas. Algunas no las verás nunca.",
+      "teaching": "Contribuir no requiere grandes recursos. Una palabra amable, un consejo a tiempo o un trabajo bien hecho pueden cambiar el día de alguien. Esa es la materia prima del legado.",
+      "philosophy": {
+        "source": "Inspirado en Marco Aurelio",
+        "idea": "Lo que no es bueno para la colmena no es bueno para la abeja. Nuestro bienestar está ligado al de los demás."
+      },
+      "question": "¿Qué te gustaría que otras personas encontraran en ti?",
+      "interaction": {
+        "type": "multiChoice",
+        "prompt": "Elige hasta tres cualidades que te gustaría dejar en otros.",
+        "max": 3,
+        "options": [
+          "Calma",
+          "Alegría",
+          "Confianza",
+          "Escucha",
+          "Inspiración",
+          "Apoyo",
+          "Honestidad",
+          "Esperanza",
+          "Respeto",
+          "Ánimo",
+          "Sabiduría",
+          "Cariño"
+        ]
+      },
+      "examples": {
+        "teen": "Quizá quieres ser la persona que anima a sus amigos cuando algo sale mal.",
+        "young": "Quizá quieres ser alguien en quien otros confían para decir la verdad con cuidado.",
+        "adult": "Quizá quieres que tu familia o tu equipo sientan calma a tu lado.",
+        "senior": "Quizá quieres que otros encuentren en ti sabiduría y cariño."
+      },
+      "challenge": {
+        "title": "Una huella amable",
+        "base": "Haz hoy algo que deje una huella positiva en alguien, sin esperar nada a cambio.",
+        "stages": {
+          "teen": "Haz hoy algo amable por alguien sin decir que lo hiciste.",
+          "young": "Ayuda hoy a alguien con algo concreto que sepas hacer.",
+          "adult": "Reconoce públicamente el esfuerzo de alguien hoy.",
+          "senior": "Comparte hoy un aprendizaje de vida con alguien que pueda aprovecharlo."
+        }
+      },
+      "meditation": {
+        "type": "gratitude",
+        "minutes": 3,
+        "label": "Huellas de luz"
+      },
+      "ambient": "fire",
+      "reward": {
+        "xp": 130,
+        "label": "Estrella de la Huella"
+      },
+      "closing": "Tu huella ya está presente en otros. Hoy decidiste dejarla con intención."
+    },
+    {
+      "day": 30,
+      "title": "Tu legado comienza hoy",
+      "constellation": "legado",
+      "root": "legado",
+      "theme": "Legado",
+      "objective": "Leer la carta del Día 1, responderle y declarar lo que quieres construir.",
+      "minutes": 10,
+      "intro": "Treinta días atrás escribiste una carta para la persona que eres hoy. Ha llegado el momento de abrirla.",
+      "teaching": "Mirar atrás no sirve para medir si fuiste perfecto, sino para reconocer que te moviste. Cada estrella encendida es evidencia de que puedes acompañarte en tu propio crecimiento.",
+      "philosophy": {
+        "source": "Inspirado en Sócrates y Séneca",
+        "idea": "Una vida examinada es una vida que se puede elegir. Y cada día es una oportunidad de volver a empezar con más conciencia."
+      },
+      "question": "Tu yo del Día 1 tiene algo que decirte.",
+      "interaction": {
+        "type": "letterReply",
+        "prompt": "Ahora escribe una respuesta para tu yo del futuro.",
+        "placeholder": "Querido yo: después de estos 30 días quiero decirte que...",
+        "minLength": 3
+      },
+      "examples": {
+        "teen": "Puedes contarle qué descubriste de ti y qué quieres seguir cuidando.",
+        "young": "Puedes contarle qué cambió en tus hábitos, tus decisiones o tu forma de verte.",
+        "adult": "Puedes contarle qué equilibrio encontraste y qué quieres proteger.",
+        "senior": "Puedes contarle qué aprendiste y qué quieres seguir sembrando."
+      },
+      "challenge": {
+        "title": "Celebrar el camino",
+        "base": "Celebra hoy de forma sencilla haber completado este viaje.",
+        "stages": {
+          "teen": "Celebra con algo que disfrutes y cuéntale a alguien de confianza lo que lograste.",
+          "young": "Celebra tu viaje con un momento especial para ti.",
+          "adult": "Regálate un momento de calidad para celebrar lo que construiste.",
+          "senior": "Celebra con alguien querido y compártele lo que aprendiste."
+        }
+      },
+      "meditation": {
+        "type": "gratitude",
+        "minutes": 10,
+        "label": "Gratitud por el viaje"
+      },
+      "ambient": "night",
+      "reward": {
+        "xp": 300,
+        "label": "Estrella del Legado"
+      },
+      "closing": "Completaste tu viaje. Y aun así, este no es el final: es el comienzo de lo que decidas construir."
+    }
+  ]
+}
