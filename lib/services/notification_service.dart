@@ -309,7 +309,7 @@ class NotificationService {
       await _save(
         _reminder.copyWith(permission: NotificationPermission.granted),
       );
-      return _platform.showNow(
+      return await _platform.showNow(
         id: testReminderId,
         title: title,
         body: reminderMessageFor(DateTime.now()),

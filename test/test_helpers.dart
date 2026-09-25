@@ -59,7 +59,7 @@ Future<TestApp> buildTestApp({
     contentService: ContentService(loadContent()),
     audio: AudioService(backend, settings: settingsService.loadSettings()),
     notifications: NotificationService(platform, settingsService),
-    clock: clock,
+    clock: clock?.call,
   );
   return TestApp(controller, backend, platform);
 }
